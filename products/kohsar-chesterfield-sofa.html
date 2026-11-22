@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kohsar Chesterfield Sofa · Hearth &amp; Home</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="banner">Demo website for the RoomSense project. Fictional store, no real orders. This site is plain HTML hosted separately from RoomSense.</div>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="../index.html">Hearth <span>&amp;</span> Home</a>
+    <nav aria-label="Main"><a href="../index.html#collection">Collection</a><a href="../index.html#about">About</a><a href="../index.html#delivery">Delivery</a></nav>
+    <span class="cart">Cart (0)</span>
+  </div>
+</header>
+<main class="wrap product">
+  <p class="crumbs"><a href="../index.html">Collection</a> / Kohsar Chesterfield Sofa</p>
+  <div class="product-grid">
+
+    <!-- ===== RoomSense: the only integration on this page (plus the script tag at the bottom) ===== -->
+    <div class="viewer">
+      <div data-roomsense data-store="hearth" data-product="kohsar-chesterfield-sofa" data-color="#2f4a3a" data-height="440"></div>
+    </div>
+    <!-- ================================================================================================ -->
+
+    <div class="info">
+      <p class="eyebrow">sofa</p>
+      <h1>Kohsar Chesterfield Sofa</h1>
+      <p class="big-price">from Rs 1,70,500</p>
+      <p>A deep-buttoned Chesterfield with rolled arms and a polished wooden base. It is covered in a durable leatherette that wipes clean, which suits busy family lounges.</p>
+      <table class="sizes">
+        <caption>Sizes and prices</caption>
+        <tbody>
+          <tr><th scope="row">3-Seater (181 cm)</th><td>181 × 82 × 71 cm</td><td class="num">Rs 2,00,000</td></tr>
+          <tr><th scope="row">2-Seater (155 cm)</th><td>155 × 82 × 71 cm</td><td class="num">Rs 1,70,500</td></tr>
+          <tr><th scope="row">Large 3-Seater (205 cm)</th><td>205 × 82 × 71 cm</td><td class="num">Rs 2,27,000</td></tr>
+        </tbody>
+      </table>
+      <button class="btn" disabled>Add to cart (demo)</button>
+      <p class="note">Delivery in 25 days. Use "View in your room" to check the fit and the delivery cost to your city.</p>
+    </div>
+  </div>
+
+  <details class="how">
+    <summary>How this page uses RoomSense</summary>
+    <p>This website is plain HTML. It was not built with RoomSense. To add RoomSense, the store pasted two lines:</p>
+    <pre><code>&lt;script src=&quot;https://ar-furniture-liard.vercel.app/widget.js&quot; defer&gt;&lt;/script&gt;
+&lt;div data-roomsense data-store=&quot;hearth&quot; data-product=&quot;kohsar-chesterfield-sofa&quot; data-color=&quot;#2f4a3a&quot; data-height=&quot;440&quot;&gt;&lt;/div&gt;</code></pre>
+    <p>The first line goes once in the site's template; the second goes where the product photos would be. RoomSense runs in an isolated frame, so it cannot change this page's design.</p>
+  </details>
+
+  <section class="section">
+    <h2>You may also like</h2>
+    <div class="grid">
+      <a class="card" href="hunza-tufted-lounge-chair.html">
+        <img src="../assets/hunza-tufted-lounge-chair.webp" alt="Hunza Tufted Lounge Chair" width="400" height="300" loading="lazy">
+        <div class="card-body">
+          <h3>Hunza Tufted Lounge Chair</h3>
+          <p class="price">from Rs 52,000</p>
+        </div>
+      </a>
+      <a class="card" href="margalla-carved-bed.html">
+        <img src="../assets/margalla-carved-bed.webp" alt="Margalla Carved Bed" width="400" height="300" loading="lazy">
+        <div class="card-body">
+          <h3>Margalla Carved Bed</h3>
+          <p class="price">from Rs 1,60,000</p>
+        </div>
+      </a>
+      <a class="card" href="kaghan-round-dining-table.html">
+        <img src="../assets/kaghan-round-dining-table.webp" alt="Kaghan Round Dining Table" width="400" height="300" loading="lazy">
+        <div class="card-body">
+          <h3>Kaghan Round Dining Table</h3>
+          <p class="price">from Rs 88,500</p>
+        </div>
+      </a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><div class="wrap"><p>Hearth &amp; Home is a fictional store made for a university project. 3D models are open-licence models credited inside the RoomSense viewer.</p></div></footer>
+<script src="https://ar-furniture-liard.vercel.app/widget.js" defer></script>
+</body>
+</html>
